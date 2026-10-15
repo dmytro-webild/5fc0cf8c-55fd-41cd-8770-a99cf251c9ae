@@ -42,7 +42,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-      logo="TATRAMONT"
+      logo="Tatra Mont s.r.o."
       ctaButton={{
         text: "Nezáväzný dopyt",
         href: "#contact",
