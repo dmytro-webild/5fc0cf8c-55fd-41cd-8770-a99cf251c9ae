@@ -10,20 +10,20 @@ export default function MetricsSection(): React.JSX.Element {
     <div id="metrics" data-section="metrics">
         <SectionErrorBoundary name="metrics">
               <MetricsMediaCards
-          tag="Prečo si vybrať TatraMont"
-          title="Naša profesionalita v číslach"
-          description="Sústredíme sa na kvalitu a stabilitu, ktorú naši obchodní partneri v Nemecku a Rakúsku očakávajú od profesionálneho subdodávateľa."
+          tag="Warum TatraMont"
+          title="Unsere Professionalität in Zahlen"
+          description="Wir konzentrieren uns auf die Qualität und Stabilität, die unsere Geschäftspartner in Deutschland und Österreich von einem professionellen Subunternehmer erwarten."
           metrics={[
             {
               value: "100%",
-              title: "Profesionálne nasadenie",
-              description: "Kvalifikovaní a skúsení pracovníci na každej stavbe.",
+              title: "Professioneller Einsatz",
+              description: "Qualifizierte und erfahrene Fachkräfte auf jeder Baustelle.",
               imageSrc: "https://images.pexels.com/photos/35383624/pexels-photo-35383624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
             {
               value: "100%",
-              title: "Dodržiavanie štandardov",
-              description: "Prísne dodržiavanie technických predpisov a noriem.",
+              title: "Einhaltung von Standards",
+              description: "Strikte Einhaltung technischer Vorschriften und Normen.",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060086610-1kvri5u5.jpg",
             },
           ]}
