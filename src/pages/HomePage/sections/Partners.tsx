@@ -4,16 +4,16 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 export default function PartnersSection() {
   const benefits = [
     {
-      title: "Partnerschaft für Unternehmen",
+      title: "Zusammenarbeit mit Unternehmen",
       description: "Wir bieten langfristige Partnerschaften bei der Umsetzung anspruchsvoller elektrotechnischer Projekte."
     },
     {
       title: "Qualitätsgarantie",
-      description: "Zertifizierte Abläufe und ein Fachteam mit langjähriger Erfahrung."
+      description: "Zertifizierte Verfahren und ein qualifiziertes Team mit langjähriger Erfahrung."
     },
     {
       title: "Flexibilität",
-      description: "Schnelle Reaktion auf Kundenbedürfnisse und flexible Kapazitätsanpassung an die Projektanforderungen."
+      description: "Schnelle Reaktion auf die Bedürfnisse unserer Kunden und flexible Anpassung der Kapazitäten an die Anforderungen des Projekts."
     }
   ];
 
@@ -25,14 +25,14 @@ export default function PartnersSection() {
             <p>Für Unternehmen</p>
           </div>
           <TextAnimation
-            text="Zuverlässiger Partner für Ihre Projekte"
+            text="Ein zuverlässiger Partner für Ihre Projekte"
             variant="slide-up"
             gradientText={true}
             tag="h2"
             className="md:max-w-8/10 text-5xl md:text-6xl font-semibold leading-tight text-balance"
           />
           <TextAnimation
-            text="Wir bieten umfassende Dienstleistungen im Bereich Elektroinstallationen und Automatisierung für Industriepartner."
+            text="Wir bieten umfassende Dienstleistungen in den Bereichen Elektroinstallation und Automatisierung für Industriepartner an."
             variant="slide-up"
             gradientText={false}
             tag="p"
