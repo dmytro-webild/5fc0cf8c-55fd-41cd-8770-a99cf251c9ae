@@ -30,7 +30,7 @@ export default function ServicesSection(): React.JSX.Element {
                 "Priemysel",
                 "Výroba",
               ],
-              imageSrc: "https://picsum.photos/seed/177905431/1200/800",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792061793688-y73gvbl6.jpg",
             },
             {
               title: "Montážne a prípravné práce",
