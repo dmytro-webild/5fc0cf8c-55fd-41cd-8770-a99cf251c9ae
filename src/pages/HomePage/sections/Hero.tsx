@@ -10,18 +10,12 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroTiltedCards
-          tag="Expertiza v elektrotechnike"
-          title="Spoľahlivý partner pre elektrotechnické projekty v Nemecku a Rakúsku"
-          description="TatraMont s.r.o. zabezpečuje elektrotechnické práce a spoluprácu s kvalifikovanými elektrikármi pre stavebné firmy, elektroinštalačné spoločnosti a priemyselné projekty."
-          primaryButton={{
-            text: "Dopyt na spoluprácu",
-            href: "#contact",
-          }}
-          secondaryButton={{
-            text: "Naše služby",
-            href: "#services",
-          }}
-          items={[
+        tag="Expertise in der Elektrotechnik"
+        title="Ihr zuverlässiger Partner für elektrotechnische Projekte in Deutschland und Österreich"
+        description="TatraMont s.r.o. bietet professionelle Elektroarbeiten und stellt qualifizierte Elektrofachkräfte für Bauunternehmen, Elektroinstallationsbetriebe und Industrieprojekte bereit."
+        primaryButton={{"href":"#contact","text":"Anfrage senden"}}
+        secondaryButton={{"href":"#services","text":"Unsere Leistungen"}}
+        items={[
             {
               imageSrc: "https://images.pexels.com/photos/28950842/pexels-photo-28950842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
@@ -38,8 +32,8 @@ export default function HeroSection(): React.JSX.Element {
               imageSrc: "https://images.pexels.com/photos/13094084/pexels-photo-13094084.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
           ]}
-          textAnimation="slide-up"
-        />
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
