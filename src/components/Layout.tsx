@@ -56,19 +56,23 @@ export default function Layout() {
         <FooterBasic
       columns={[
         {
-          title: "TATRAMONT s.r.o.",
+          title: "Tatra Mont s.r.o",
           items: [
             {
-              label: "Hlavná 1, 010 01 Bratislava",
+              label: "Hviezdoslavova 51/12",
               href: "#",
             },
             {
-              label: "IČO: 12345678",
+              label: "Námestovo 029 01",
               href: "#",
             },
             {
-              label: "info@tatramont.sk",
-              href: "mailto:info@tatramont.sk",
+              label: "DIČ : 2022152814",
+              href: "#",
+            },
+            {
+              label: "IČO : 36441121",
+              href: "#",
             },
           ],
         },
