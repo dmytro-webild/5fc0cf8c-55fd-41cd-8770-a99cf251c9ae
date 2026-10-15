@@ -8,32 +8,28 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "Domov",
+    "name": "Startseite",
     "href": "#hero"
   },
   {
-    "name": "Naše služby",
+    "name": "Unsere Dienstleistungen",
     "href": "#services"
   },
   {
-    "name": "Pre firmy",
+    "name": "Für Unternehmen",
     "href": "#partners"
   },
   {
-    "name": "O spoločnosti",
+    "name": "Über uns",
     "href": "#about"
+  },
+  {
+    "name": "FAQ",
+    "href": "#faq"
   },
   {
     "name": "Kontakt",
     "href": "#contact"
-  },
-  {
-    "name": "Metrics",
-    "href": "#metrics"
-  },
-  {
-    "name": "Faq",
-    "href": "#faq"
   }
 ];
 
@@ -44,7 +40,7 @@ export default function Layout() {
         <NavbarInline
       logo="Tatra Mont s.r.o."
       ctaButton={{
-        text: "Nezáväzný dopyt",
+        text: "Unverbindliche Anfrage",
         href: "#contact",
       }}
      navItems={navItems} />
@@ -85,18 +81,18 @@ export default function Layout() {
           ],
         },
         {
-          title: "Rýchle odkazy",
+          title: "Quicklinks",
           items: [
             {
-              label: "Domov",
+              label: "Startseite",
               href: "#hero",
             },
             {
-              label: "Služby",
+              label: "Dienstleistungen",
               href: "#services",
             },
             {
-              label: "Pre partnerov",
+              label: "Für Partner",
               href: "#partners",
             },
             {
@@ -106,8 +102,8 @@ export default function Layout() {
           ],
         },
       ]}
-      leftText="© 2022 Tatra Mont s.r.o. Všetky práva vyhradené."
-      rightText="Profesionálne elektrotechnické riešenia."
+      leftText="© 2022 Tatra Mont s.r.o. Alle Rechte vorbehalten."
+      rightText="Professionelle elektrotechnische Lösungen."
     />
       </SectionErrorBoundary>
     </StyleProvider>
