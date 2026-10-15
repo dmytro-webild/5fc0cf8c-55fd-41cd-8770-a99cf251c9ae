@@ -106,7 +106,7 @@ export default function Layout() {
           ],
         },
       ]}
-      leftText="© 2024 TatraMont s.r.o. Všetky práva vyhradené."
+      leftText="© 2022 Tatra Mont s.r.o. Všetky práva vyhradené."
       rightText="Profesionálne elektrotechnické riešenia."
     />
       </SectionErrorBoundary>
