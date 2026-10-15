@@ -26,10 +26,10 @@ export default function HeroSection(): React.JSX.Element {
               imageSrc: "https://images.pexels.com/photos/28950842/pexels-photo-28950842.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
             {
-              imageSrc: "https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060172774-cuoayx76.jpg",
             },
             {
-              imageSrc: "https://images.pexels.com/photos/27928761/pexels-photo-27928761.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060172776-a12fmlvi.jpg",
             },
             {
               imageSrc: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
