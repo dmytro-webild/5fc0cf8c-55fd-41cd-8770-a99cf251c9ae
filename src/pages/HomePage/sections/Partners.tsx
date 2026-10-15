@@ -4,16 +4,16 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 export default function PartnersSection() {
   const benefits = [
     {
-      title: "Zusammenarbeit mit Unternehmen",
-      description: "Wir bieten langfristige Partnerschaften bei der Umsetzung anspruchsvoller elektrotechnischer Projekte."
+      title: "Spolupráca pre firmy",
+      description: "Ponúkame dlhodobé partnerstvo pri realizácii náročných elektrotechnických projektov."
     },
     {
-      title: "Qualitätsgarantie",
-      description: "Zertifizierte Verfahren und ein qualifiziertes Team mit langjähriger Erfahrung."
+      title: "Garancia kvality",
+      description: "Certifikované postupy a odborný tím s mnohoročnými skúsenosťami."
     },
     {
-      title: "Flexibilität",
-      description: "Schnelle Reaktion auf die Bedürfnisse unserer Kunden und flexible Anpassung der Kapazitäten an die Anforderungen des Projekts."
+      title: "Flexibilita",
+      description: "Rýchla reakcia na potreby klienta a prispôsobenie kapacít požiadavkám projektu."
     }
   ];
 
@@ -22,17 +22,17 @@ export default function PartnersSection() {
       <div className="flex flex-col gap-8 w-content-width mx-auto">
         <div className="flex flex-col items-center gap-2 text-center">
           <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-            <p>Für Unternehmen</p>
+            <p>Pre firmy</p>
           </div>
           <TextAnimation
-            text="Ein zuverlässiger Partner für Ihre Projekte"
+            text="Spoľahlivý partner pre vaše projekty"
             variant="slide-up"
             gradientText={true}
             tag="h2"
             className="md:max-w-8/10 text-5xl md:text-6xl font-semibold leading-tight text-balance"
           />
           <TextAnimation
-            text="Wir bieten umfassende Dienstleistungen in den Bereichen Elektroinstallation und Automatisierung für Industriepartner an."
+            text="Poskytujeme komplexné služby v oblasti elektroinštalácií a automatizácie pre priemyselných partnerov."
             variant="slide-up"
             gradientText={false}
             tag="p"
