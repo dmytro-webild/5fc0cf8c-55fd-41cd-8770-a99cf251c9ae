@@ -31,7 +31,7 @@ export default function FaqSection(): React.JSX.Element {
               answer: "Áno, prioritne hľadáme partnerov pre dlhodobé a stabilné projekty.",
             },
           ]}
-          imageSrc="https://images.pexels.com/photos/1385056/pexels-photo-1385056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          imageSrc="https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060335279-ysykn5pv.jpg"
           textAnimation="slide-up"
         />
         </SectionErrorBoundary>
