@@ -24,7 +24,7 @@ export default function MetricsSection(): React.JSX.Element {
               value: "100%",
               title: "Dodržiavanie štandardov",
               description: "Prísne dodržiavanie technických predpisov a noriem.",
-              imageSrc: "https://images.pexels.com/photos/17843269/pexels-photo-17843269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060086610-1kvri5u5.jpg",
             },
           ]}
           textAnimation="slide-up"
