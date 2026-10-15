@@ -29,7 +29,7 @@ const ContactInline = () => {
               </div>
 
               <TextAnimation
-                text={"Máte záujem o spoluprácu? Radi sa s vami spojíme a prediskutujeme možnosti, ako TatraMont môže pomôcť vášmu projektu."}
+                text={"Sind Sie an einer Zusammenarbeit interessiert? Wir setzen uns gerne mit Ihnen in Verbindung und besprechen die Möglichkeiten, wie TatraMont Ihr Projekt unterstützen kann."}
                 variant={"slide-up"}
                 gradientText={true}
                 tag="h2"
@@ -37,8 +37,8 @@ const ContactInline = () => {
               />
 
               <div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3">
-                <Button text="Napíšte nám" variant="primary" onClick={handleOpen} />
-                <Button text="Zavolajte nám" variant="secondary" animationDelay={0.1} onClick={handleOpen} />
+                <Button text="Schreiben Sie uns" variant="primary" onClick={handleOpen} />
+                <Button text="Rufen Sie uns an" variant="secondary" animationDelay={0.1} onClick={handleOpen} />
               </div>
             </div>
           </div>
@@ -55,12 +55,12 @@ const ContactInline = () => {
             onClick={stopProp}
           >
             <div className="flex items-center justify-between border-b border-border/40 pb-4">
-              <h3 className="text-xl font-bold text-foreground">Kontaktné informácie</h3>
+              <h3 className="text-xl font-bold text-foreground">Kontaktinformationen</h3>
               <button 
                 type="button"
                 onClick={handleClose}
                 className="p-1.5 rounded-lg text-accent hover:text-foreground transition-colors cursor-pointer"
-                aria-label="Zatvoriť"
+                aria-label="Schließen"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -72,7 +72,7 @@ const ContactInline = () => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-accent font-medium uppercase tracking-wider">Telefónne číslo</p>
+                  <p className="text-xs text-accent font-medium uppercase tracking-wider">Telefonnummer</p>
                   <a href="tel:+421910360086" className="text-base font-semibold text-foreground hover:underline">
                     +421 910 360 086
                   </a>
@@ -84,7 +84,7 @@ const ContactInline = () => {
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-accent font-medium uppercase tracking-wider">E-mailová adresa</p>
+                  <p className="text-xs text-accent font-medium uppercase tracking-wider">E-Mail-Adresse</p>
                   <a href="mailto:contact@tatramont.com" className="text-base font-semibold text-foreground hover:underline">
                     contact@tatramont.com
                   </a>
@@ -98,7 +98,7 @@ const ContactInline = () => {
                 onClick={handleClose} 
                 className="primary-button text-primary-cta-text h-10 px-6 text-sm rounded cursor-pointer font-medium"
               >
-                Zatvoriť
+                Schließen
               </button>
             </div>
           </div>
