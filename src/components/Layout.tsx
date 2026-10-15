@@ -74,6 +74,14 @@ export default function Layout() {
               label: "IČO : 36441121",
               href: "#",
             },
+            {
+              label: "Steuernummer : 214/636/05774",
+              href: "#",
+            },
+            {
+              label: "contact@tatramont.com",
+              href: "mailto:contact@tatramont.com",
+            },
           ],
         },
         {
