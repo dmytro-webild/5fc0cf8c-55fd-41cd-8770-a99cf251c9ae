@@ -10,24 +10,24 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqSplitMedia
-          tag="Často kladené otázky"
-          title="Všetko o našej spolupráci"
-          description="Tu nájdete odpovede na najčastejšie otázky týkajúce sa našich služieb a možností partnerstva."
+          tag="Häufig gestellte Fragen"
+          title="Alles über unsere Zusammenarbeit"
+          description="Hier finden Sie Antworten auf die häufigsten Fragen zu unseren Dienstleistungen und den Möglichkeiten einer Zusammenarbeit."
           items={[
             {
-              question: "V ktorých krajinách poskytujete služby?",
+              question: "In welchen Ländern bieten Sie Ihre Dienstleistungen an?",
               answer: "Primárne sa zameriavame na Nemecko a Rakúsko, kde máme vybudovanú sieť partnerstiev.",
             },
             {
-              question: "Aké typy projektov realizujete?",
+              question: "Welche Arten von Projekten führen Sie durch?",
               answer: "Realizujeme komerčné, rezidenčné a priemyselné elektroinštalačné projekty rôzneho rozsahu.",
             },
             {
-              question: "Ako prebieha proces výberu pracovníkov?",
+              question: "Wie läuft der Auswahlprozess der Mitarbeiter ab?",
               answer: "Naši pracovníci sú vyberaní na základe odbornosti a skúseností s ohľadom na špecifické potreby vášho projektu.",
             },
             {
-              question: "Je možné dohodnúť dlhodobú spoluprácu?",
+              question: "Ist eine langfristige Zusammenarbeit möglich?",
               answer: "Áno, prioritne hľadáme partnerov pre dlhodobé a stabilné projekty.",
             },
           ]}
