@@ -10,30 +10,13 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqSplitMedia
-          tag="Často kladené otázky"
-          title="Všetko o našej spolupráci"
-          description="Tu nájdete odpovede na najčastejšie otázky týkajúce sa našich služieb a možností partnerstva."
-          items={[
-            {
-              question: "V ktorých krajinách poskytujete služby?",
-              answer: "Primárne sa zameriavame na Nemecko a Rakúsko, kde máme vybudovanú sieť partnerstiev.",
-            },
-            {
-              question: "Aké typy projektov realizujete?",
-              answer: "Realizujeme komerčné, rezidenčné a priemyselné elektroinštalačné projekty rôzneho rozsahu.",
-            },
-            {
-              question: "Ako prebieha proces výberu pracovníkov?",
-              answer: "Naši pracovníci sú vyberaní na základe odbornosti a skúseností s ohľadom na špecifické potreby vášho projektu.",
-            },
-            {
-              question: "Je možné dohodnúť dlhodobú spoluprácu?",
-              answer: "Áno, prioritne hľadáme partnerov pre dlhodobé a stabilné projekty.",
-            },
-          ]}
-          imageSrc="https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060335279-ysykn5pv.jpg"
-          textAnimation="slide-up"
-        />
+        tag="Häufig gestellte Fragen"
+        title="Alles über unsere Zusammenarbeit"
+        description="Hier finden Sie Antworten auf die häufigsten Fragen zu unseren Dienstleistungen und Partnerschaftsmöglichkeiten."
+        items={[{"answer":"Wir konzentrieren uns primär auf Deutschland und Österreich, wo wir über ein gut ausgebautes Partnernetzwerk verfügen.","question":"In welchen Ländern bieten Sie Ihre Dienstleistungen an?"},{"question":"Welche Arten von Projekten realisieren Sie?","answer":"Wir führen gewerbliche, Wohn- und industrielle Elektroinstallationsprojekte unterschiedlicher Größenordnung aus."},{"question":"Wie läuft der Auswahlprozess der Fachkräfte ab?","answer":"Unsere Fachkräfte werden basierend auf ihrer Qualifikation und Erfahrung ausgewählt, stets unter Berücksichtigung der spezifischen Anforderungen Ihres Projekts."},{"question":"Ist eine langfristige Zusammenarbeit möglich?","answer":"Ja, wir suchen vorrangig Partner für langfristige und stabile Projekte."}]}
+        imageSrc="https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792060335279-ysykn5pv.jpg"
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
