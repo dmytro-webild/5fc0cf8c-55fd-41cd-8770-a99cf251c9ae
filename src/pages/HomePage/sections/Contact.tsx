@@ -18,7 +18,7 @@ export default function ContactSection(): React.JSX.Element {
           }}
           secondaryButton={{
             text: "Zavolajte nám",
-            href: "tel:+421900000000",
+            href: "tel:+421910360086",
           }}
           textAnimation="slide-up"
         />
