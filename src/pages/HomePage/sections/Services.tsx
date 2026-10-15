@@ -10,43 +10,43 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesDetailedCards
-          tag="Naše služby"
-          title="Elektrotechnické riešenia pre vaše projekty"
-          description="Spolupracujeme s firmami, ktoré potrebujú spoľahlivé kapacity na realizáciu elektrotechnických prác. Rozsah spolupráce prispôsobujeme požiadavkám."
+          tag="Unsere Leistungen"
+          title="Elektrotechnische Lösungen für Ihre Projekte"
+          description="Wir arbeiten mit Unternehmen zusammen, die zuverlässige Kapazitäten für die Umsetzung elektrotechnischer Arbeiten benötigen. Den Umfang der Zusammenarbeit passen wir individuell an Ihre Anforderungen an."
           items={[
             {
-              title: "Elektroinštalačné práce",
-              description: "Realizácia elektroinštalačných prác na stavebných a komerčných projektoch podľa dohodnutého rozsahu a technických požiadaviek.",
+              title: "Elektroinstallationsarbeiten",
+              description: "Ausführung von Elektroinstallationsarbeiten im Hochbau und bei Gewerbeprojekten nach vereinbartem Umfang und technischen Vorgaben.",
               tags: [
-                "Stavebníctvo",
-                "Komerčné projekty",
+                "Baugewerbe",
+                "Gewerbeprojekte",
               ],
               imageSrc: "https://images.pexels.com/photos/21812146/pexels-photo-21812146.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
             {
-              title: "Priemyselné elektroinštalácie",
-              description: "Podpora pri elektrotechnických prácach v priemyselných objektoch, výrobných halách a technických prevádzkach.",
+              title: "Industrielle Elektroinstallationen",
+              description: "Unterstützung bei elektrotechnischen Arbeiten in Industrieobjekten, Produktionshallen und technischen Anlagen.",
               tags: [
-                "Priemysel",
-                "Výroba",
+                "Industrie",
+                "Fertigung",
               ],
               imageSrc: "https://storage.googleapis.com/webild/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1792061793688-y73gvbl6.jpg",
             },
             {
-              title: "Montážne a prípravné práce",
-              description: "Pomocné a montážne práce potrebné pre hladký priebeh elektroinštalačných projektov podľa zadania.",
+              title: "Montage- und Vorbereitungsarbeiten",
+              description: "Hilfs- und Montagearbeiten, die für einen reibungslosen Ablauf von Elektroinstallationsprojekten nach Vorgabe erforderlich sind.",
               tags: [
-                "Montáž",
-                "Podpora",
+                "Montage",
+                "Unterstützung",
               ],
               imageSrc: "https://images.pexels.com/photos/30535093/pexels-photo-30535093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
             {
-              title: "Technická údržba",
-              description: "Servisná podpora a údržba elektrotechnických zariadení pre našich partnerov na dlhodobej báze.",
+              title: "Technische Wartung",
+              description: "Serviceunterstützung und langfristige Wartung elektrotechnischer Anlagen für unsere Partner.",
               tags: [
-                "Údržba",
-                "Servis",
+                "Wartung",
+                "Service",
               ],
               imageSrc: "https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
             },
