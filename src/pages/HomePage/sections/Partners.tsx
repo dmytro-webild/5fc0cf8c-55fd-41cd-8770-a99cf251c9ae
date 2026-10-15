@@ -4,16 +4,16 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 export default function PartnersSection() {
   const benefits = [
     {
-      title: "Spolupráca pre firmy",
-      description: "Ponúkame dlhodobé partnerstvo pri realizácii náročných elektrotechnických projektov."
+      title: "Partnerschaft für Unternehmen",
+      description: "Wir bieten langfristige Partnerschaften bei der Umsetzung anspruchsvoller elektrotechnischer Projekte."
     },
     {
-      title: "Garancia kvality",
-      description: "Certifikované postupy a odborný tím s mnohoročnými skúsenosťami."
+      title: "Qualitätsgarantie",
+      description: "Zertifizierte Abläufe und ein Fachteam mit langjähriger Erfahrung."
     },
     {
-      title: "Flexibilita",
-      description: "Rýchla reakcia na potreby klienta a prispôsobenie kapacít požiadavkám projektu."
+      title: "Flexibilität",
+      description: "Schnelle Reaktion auf Kundenbedürfnisse und flexible Kapazitätsanpassung an die Projektanforderungen."
     }
   ];
 
@@ -22,17 +22,17 @@ export default function PartnersSection() {
       <div className="flex flex-col gap-8 w-content-width mx-auto">
         <div className="flex flex-col items-center gap-2 text-center">
           <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-            <p>Pre firmy</p>
+            <p>Für Unternehmen</p>
           </div>
           <TextAnimation
-            text="Spoľahlivý partner pre vaše projekty"
+            text="Zuverlässiger Partner für Ihre Projekte"
             variant="slide-up"
             gradientText={true}
             tag="h2"
             className="md:max-w-8/10 text-5xl md:text-6xl font-semibold leading-tight text-balance"
           />
           <TextAnimation
-            text="Poskytujeme komplexné služby v oblasti elektroinštalácií a automatizácie pre priemyselných partnerov."
+            text="Wir bieten umfassende Dienstleistungen im Bereich Elektroinstallationen und Automatisierung für Industriepartner."
             variant="slide-up"
             gradientText={false}
             tag="p"
