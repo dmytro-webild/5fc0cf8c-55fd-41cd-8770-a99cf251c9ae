@@ -24,7 +24,7 @@ export default function AboutSection() {
             description: "Využívame moderné technológie a postupy v elektrotechnike."
           }
         ]}
-        imageSrc="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80"
+        imageSrc="https://picsum.photos/seed/2128952586/1200/800"
         textAnimation="slide-up"
       />
     </div>
