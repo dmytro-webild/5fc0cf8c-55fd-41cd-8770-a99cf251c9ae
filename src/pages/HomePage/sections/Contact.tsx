@@ -14,7 +14,7 @@ export default function ContactSection(): React.JSX.Element {
           text="Máte záujem o spoluprácu? Radi sa s vami spojíme a prediskutujeme možnosti, ako TatraMont môže pomôcť vášmu projektu."
           primaryButton={{
             text: "Napíšte nám",
-            href: "mailto:info@tatramont.sk",
+            href: "mailto:contact@tatramont.com",
           }}
           secondaryButton={{
             text: "Zavolajte nám",
