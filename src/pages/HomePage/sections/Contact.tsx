@@ -29,7 +29,8 @@ const ContactInline = () => {
               </div>
 
               <TextAnimation
-                text={"Máte záujem o spoluprácu? Radi sa s vami spojíme a prediskutujeme možnosti, ako TatraMont môže pomôcť vášmu projektu."}
+                text={"Haben Sie Interesse an einer Zusammenarbeit?
+Gerne setzen wir uns mit Ihnen in Verbindung, um die Möglichkeiten zu besprechen, wie TatraMont Ihr Projekt unterstützen kann."}
                 variant={"slide-up"}
                 gradientText={true}
                 tag="h2"
@@ -37,8 +38,8 @@ const ContactInline = () => {
               />
 
               <div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3">
-                <Button text="Napíšte nám" variant="primary" onClick={handleOpen} />
-                <Button text="Zavolajte nám" variant="secondary" animationDelay={0.1} onClick={handleOpen} />
+                <Button text="Schreiben Sie uns" variant="primary" onClick={handleOpen} />
+                <Button text="Rufen Sie uns an" variant="secondary" animationDelay={0.1} onClick={handleOpen} />
               </div>
             </div>
           </div>
