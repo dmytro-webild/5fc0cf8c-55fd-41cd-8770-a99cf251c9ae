@@ -38,7 +38,7 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="header">
         <NavbarInline
-          logoText="Tatra Mont s.r.o."
+          logo="Tatra Mont s.r.o."
           navItems={navItems}
           ctaButton={{
             text: "Unverbindliche Anfrage",
