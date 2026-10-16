@@ -40,8 +40,8 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarInline
           logo="Tatra Mont s.r.o."
-          items={navItems}
-          primaryButton={{
+          navItems={navItems}
+          ctaButton={{
             text: "Unverbindliche Anfrage",
             href: "#contact"
           }}
