@@ -8,28 +8,34 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
     {
-      "name": "Startseite",
-      "href": "#hero"
+      name: "Startseite",
+      label: "Startseite",
+      href: "#hero"
     },
     {
-      "name": "Unsere Dienstleistungen",
-      "href": "#services"
+      name: "Unsere Dienstleistungen",
+      label: "Unsere Dienstleistungen",
+      href: "#services"
     },
     {
-      "name": "Für Unternehmen",
-      "href": "#partners"
+      name: "Für Unternehmen",
+      label: "Für Unternehmen",
+      href: "#partners"
     },
     {
-      "name": "Über uns",
-      "href": "#about"
+      name: "Über uns",
+      label: "Über uns",
+      href: "#about"
     },
     {
-      "name": "FAQ",
-      "href": "#faq"
+      name: "FAQ",
+      label: "FAQ",
+      href: "#faq"
     },
     {
-      "name": "Kontakt",
-      "href": "#contact"
+      name: "Kontakt",
+      label: "Kontakt",
+      href: "#contact"
     }
   ];
 
@@ -37,6 +43,14 @@ export default function Layout() {
     <StyleProvider buttonVariant="shift" siteBackground="gridDots" heroBackground="cornerGlow">
       <SiteBackgroundSlot />
 
+      <SectionErrorBoundary name="navbar">
+        <NavbarInline
+          logoText="Tatra Mont s.r.o."
+          brandText="Tatra Mont s.r.o."
+          navItems={navItems}
+          primaryButton={{ text: "Unverbindliche Anfrage", href: "#contact" }}
+        />
+      </SectionErrorBoundary>
 
       <main className="flex-grow">
         <Outlet />
