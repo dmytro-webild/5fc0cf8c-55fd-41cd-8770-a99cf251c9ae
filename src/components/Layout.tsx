@@ -36,15 +36,7 @@ export default function Layout() {
   return (
     <StyleProvider buttonVariant="shift" siteBackground="gridDots" heroBackground="cornerGlow">
       <SiteBackgroundSlot />
-      <SectionErrorBoundary name="navbar">
-        <NavbarInline
-      logo="Tatra Mont s.r.o."
-      ctaButton={{
-        text: "Unverbindliche Anfrage",
-        href: "#contact",
-      }}
-     navItems={navItems} />
-      </SectionErrorBoundary>
+
       <main className="flex-grow">
         <Outlet />
       </main>
