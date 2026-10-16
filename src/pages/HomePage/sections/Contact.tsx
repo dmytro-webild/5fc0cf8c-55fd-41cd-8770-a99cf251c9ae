@@ -25,7 +25,7 @@ const ContactInline = () => {
           <div className="flex flex-col items-center gap-8 md:gap-10 py-20 px-8 rounded card">
             <div className="flex flex-col items-center gap-2">
               <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-                <p>{"Kontakt"}</p>
+                <p>{""}</p>
               </div>
 
               <TextAnimation
@@ -55,7 +55,7 @@ const ContactInline = () => {
             onClick={stopProp}
           >
             <div className="flex items-center justify-between border-b border-border/40 pb-4">
-              <h3 className="text-xl font-bold text-foreground">Kontaktinformationen</h3>
+              <h3 className="text-xl font-bold text-foreground">informationen</h3>
               <button 
                 type="button"
                 onClick={handleClose}
