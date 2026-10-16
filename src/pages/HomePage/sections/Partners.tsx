@@ -22,7 +22,7 @@ export default function PartnersSection() {
       <div className="flex flex-col gap-8 w-content-width mx-auto">
         <div className="flex flex-col items-center gap-2 text-center">
           <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-            <p>Für Unternehmen</p>
+            <p></p>
           </div>
           <TextAnimation
             text="Zuverlässiger Partner für Ihre Projekte"
