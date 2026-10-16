@@ -37,11 +37,21 @@ export default function Layout() {
     <StyleProvider buttonVariant="shift" siteBackground="gridDots" heroBackground="cornerGlow">
       <SiteBackgroundSlot />
 
-
+      <SectionErrorBoundary name="navbar">
+        <NavbarInline
+          logo="Tatra Mont s.r.o."
+          items={navItems}
+          primaryButton={{
+            text: "Unverbindliche Anfrage",
+            href: "#contact"
+          }}
+        />
+      </SectionErrorBoundary>
 
       <main className="flex-grow">
         <Outlet />
       </main>
+
       <SectionErrorBoundary name="footer">
         <FooterBasic
           columns={[
