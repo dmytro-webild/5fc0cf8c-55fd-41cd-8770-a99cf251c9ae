@@ -41,13 +41,17 @@ export default function Layout() {
         <NavbarInline
           logo="Tatra Mont s.r.o."
           navItems={navItems}
-          ctaButton={{ text: "Unverbindliche Anfrage", href: "#contact" }}
+          ctaButton={{
+            text: "Unverbindliche Anfrage",
+            href: "#contact"
+          }}
         />
       </SectionErrorBoundary>
 
       <main className="flex-grow">
         <Outlet />
       </main>
+
       <SectionErrorBoundary name="footer">
         <FooterBasic
           columns={[
