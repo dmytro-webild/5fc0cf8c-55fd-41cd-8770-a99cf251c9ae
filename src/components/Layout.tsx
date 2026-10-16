@@ -9,32 +9,26 @@ export default function Layout() {
   const navItems = [
     {
       name: "Startseite",
-      label: "Startseite",
       href: "#hero"
     },
     {
       name: "Unsere Dienstleistungen",
-      label: "Unsere Dienstleistungen",
       href: "#services"
     },
     {
       name: "Für Unternehmen",
-      label: "Für Unternehmen",
       href: "#partners"
     },
     {
       name: "Über uns",
-      label: "Über uns",
       href: "#about"
     },
     {
       name: "FAQ",
-      label: "FAQ",
       href: "#faq"
     },
     {
       name: "Kontakt",
-      label: "Kontakt",
       href: "#contact"
     }
   ];
@@ -45,10 +39,9 @@ export default function Layout() {
 
       <SectionErrorBoundary name="navbar">
         <NavbarInline
-          logoText="Tatra Mont s.r.o."
-          brandText="Tatra Mont s.r.o."
+          logo="Tatra Mont s.r.o."
           navItems={navItems}
-          primaryButton={{ text: "Unverbindliche Anfrage", href: "#contact" }}
+          ctaButton={{ text: "Unverbindliche Anfrage", href: "#contact" }}
         />
       </SectionErrorBoundary>
 
