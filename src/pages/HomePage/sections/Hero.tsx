@@ -80,10 +80,7 @@ const HeroInline = () => {
             className="md:max-w-7/10 text-lg md:text-xl leading-snug text-balance"
           />
 
-          <div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3">
-            <Button text={primaryButton.text} href={primaryButton.href} variant="primary"/>
-            <Button text={secondaryButton.text} href={secondaryButton.href} variant="secondary"animationDelay={0.1} />
-          </div>
+
         </div>
 
         <ScrollReveal variant="fade-blur" delay={0.2} className="block md:hidden w-full overflow-hidden mask-padding-x">
