@@ -37,8 +37,19 @@ const ContactInline = () => {
               />
 
               <div className="flex flex-wrap justify-center gap-3 mt-2 md:mt-3">
-                <Button text="Schreiben Sie uns" variant="primary" onClick={handleOpen} />
-                <Button text="Rufen Sie uns an" variant="secondary" animationDelay={0.1} onClick={handleOpen} />
+                <Button text="Schreiben Sie uns" variant="primary" />
+                <Button text="Rufen Sie uns an" variant="secondary" animationDelay={0.1} />
+              </div>
+
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-6">
+                <a href="mailto:contact@tatramont.com" className="flex items-center gap-2 text-foreground font-semibold text-lg hover:underline">
+                  <Mail className="w-5 h-5 text-accent" />
+                  <span>contact@tatramont.com</span>
+                </a>
+                <a href="tel:+421910360086" className="flex items-center gap-2 text-foreground font-semibold text-lg hover:underline">
+                  <Phone className="w-5 h-5 text-accent" />
+                  <span>+421 910 360 086</span>
+                </a>
               </div>
             </div>
           </div>
